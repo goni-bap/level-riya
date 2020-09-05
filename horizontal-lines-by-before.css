@@ -1,0 +1,36 @@
+
+#practice{
+	   width:600px;
+	   height:200px;
+       border: 1px solid green;
+	   top:50%;
+	   left:50%;
+	   transform:translate(-50%,-50%);
+	   position:absolute;
+}	   
+
+
+ h1{position:relative;
+   text-align:center;
+}
+
+
+ h1:before {
+    content: "";
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 100%;
+	z-index:-2;
+   
+}
+
+#practice h1 span {
+    background: white;
+    padding: 3px;
+	border: 1px solid red;
+   
+}
+
